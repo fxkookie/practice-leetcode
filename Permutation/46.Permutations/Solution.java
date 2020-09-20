@@ -14,6 +14,7 @@ class Solution {
             return;
         }
         for(int i = start;i<n.length;i++){
+        for(int i = start;i<n.length;i++){
             swap(n,i,start);
             round(n,start+1);
             swap(n,i,start);
@@ -25,4 +26,5 @@ class Solution {
         x[a] = x[b];
         x[b] = temp;
     }
+
 }
